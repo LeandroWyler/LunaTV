@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 			<title>Luna TV - Filmes, Series e muito mais!</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />f
 <meta name='robots' content='max-image-preview:large' />
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	<script type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 11.0.0.2');</script>
@@ -12,31 +12,6 @@
 <link rel="alternate" type="application/rss+xml" title="Feed para LunaTV &raquo;" href="https://lunatvpremium.com.br/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Feed de comentários para LunaTV &raquo;" href="https://lunatvpremium.com.br/comments/feed/" />
 
-	<script>
-  // ALTERE O LINK PARA A PÁGINA QUE QUISER MOSTRAR QUANDO O USUÁRIO TENTAR SAIR
-  const link = 'https://luna-tv.vercel.app';
-
-  function setBackRedirect(url) {
-    let urlBackRedirect = url;
-    urlBackRedirect = urlBackRedirect =
-      urlBackRedirect.trim() +
-      (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
-      document.location.search.replace('?', '').toString();
-
-    history.pushState({}, '', location.href);
-    history.pushState({}, '', location.href);
-    history.pushState({}, '', location.href);
-
-    window.addEventListener('popstate', () => {
-      console.log('onpopstate', urlBackRedirect);
-      setTimeout(() => {
-        location.href = urlBackRedirect;
-      }, 1);
-    });
-  }
-
-  setBackRedirect(link);
-</script>
 
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/lunatvpremium.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
