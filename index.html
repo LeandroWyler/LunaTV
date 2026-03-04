@@ -331,13 +331,27 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1036711371907556');
+fbq('init', '1036711371907556', {
+  em: 'email@email.com',   // Values will be hashed automatically by the pixel using SHA-256
+  ph: '1234567890',
+  ...
+});
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1036711371907556&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+	<script>
+  window.pixelId = "69a78d16a18f24262f11d210";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+	
 </head>
 <body class="home wp-singular page-template page-template-elementor_canvas page page-id-21 wp-custom-logo wp-embed-responsive wp-theme-yith-wonder wp-child-theme-hostgator-br-meu-site elementor-default elementor-template-canvas elementor-kit-17 elementor-page elementor-page-21">
 			<div data-elementor-type="wp-page" data-elementor-id="21" class="elementor elementor-21" data-elementor-settings="{&quot;ha_cmc_init_switcher&quot;:&quot;no&quot;}" data-elementor-post-type="page">
