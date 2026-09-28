@@ -1,0 +1,1 @@
+import{t as e}from"./index-C1VSpzMT.js";var t=e();function n(){return(0,t.jsx)(`iframe`,{src:`/corujao.html`,title:`Clichês Play`,style:{border:`none`,width:`100vw`,height:`100vh`,display:`block`}})}export{n as component};
